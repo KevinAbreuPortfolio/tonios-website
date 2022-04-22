@@ -7,13 +7,21 @@
 // @media screen and (${breakpoint.device.bP1}){
 // -------------------------------------------
 
+// Media Query Breakpoint Notes
+// 20em is 320px
+// 30em is 480px
+// 48em is 768px
+// 64em is 1024px
+// 75em is 1200px
+// 120em is 1920px
+
 export const size = {
-    bP1: '20em',
-    bP2: '30em',
-    bP3: '48em',
-    bP4: '64em',
-    bP5: '75em',
-    bP6: '120em',
+    bP1: '320px',
+    bP2: '480px',
+    bP3: '768px',
+    bP4: '1024px',
+    bP5: '1200px',
+    bP6: '1920px',
 }
 export const device = {
     bP1: `(min-width: ${size.bP1})`,

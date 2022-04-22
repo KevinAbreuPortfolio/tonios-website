@@ -70,5 +70,7 @@ background-image: url(${props => props.url});
 `
 
 export const NavLinks = styled.ul`
-
+>li{
+    white-space: nowrap;
+}
 `

@@ -31,10 +31,12 @@ align-items: center;
 `
 
 export const AboutInnerContainer = styled.div`
-
+display: flex;
+flex-direction: column;
+justify-content: space-between;
 width: 90%;
 aspect-ratio: 1 / 1;
-background-color: red;
+/* background-color: red; */
 
 
 `
@@ -77,10 +79,25 @@ line-height: 130%;
 text-transform: capitalize;
 width: 70%;
 height: fit-content;
-background-color: green;
+/* background-color: green; */
 color: var(--secondary-color);
 
 `
 export const HeadlineBody = styled.p`
+font-size: .9rem;
+`
 
+export const AboutFood = styled.div`
+width: 100%;
+height: 30%;
+/* background-color: blue; */
+display: flex;
+column-gap: 5%;
+>div{
+    flex:1;
+    /* background-color: green; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 `

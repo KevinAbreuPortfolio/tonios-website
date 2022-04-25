@@ -56,10 +56,11 @@ align-items: center;
     } */
 }
 `
-export const HeadlineTag = styled.div`
+export const HeadlineTag = styled.h4`
 color: var(--primary-color);
 display: flex;
 align-items: center;
+font-size: var(--h4-size);
 column-gap: 10px;
 letter-spacing: 2px;
 font-weight: 500;
@@ -73,7 +74,7 @@ font-weight: 500;
 `
 
 export const BigHeadlineTag = styled.h1`
-font-size: 2rem;
+font-size: var(--h1-size);
 font-weight: 900;
 line-height: 130%;
 text-transform: capitalize;
@@ -84,7 +85,7 @@ color: var(--secondary-color);
 
 `
 export const HeadlineBody = styled.p`
-font-size: .9rem;
+font-size: var(--p-size);
 `
 
 export const AboutFood = styled.div`

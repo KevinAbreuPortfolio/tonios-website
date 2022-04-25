@@ -32,6 +32,7 @@ padding-right: var(--side-padding);
 }
 >ul>li{
     cursor: pointer;
+    font-size: var(--li-size);
 }
 >div{
     flex-direction: row;

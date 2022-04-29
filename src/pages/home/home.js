@@ -2,6 +2,7 @@ import React from 'react'
 import { NavBar } from './components/Navbar/navBar'
 import { Top } from './components/Top/top'
 import { About } from './components/About/about'
+import { Menu } from './components/Menu/menu'
 
 const Home = () => {
   return (
@@ -9,7 +10,7 @@ const Home = () => {
     <NavBar />
     <Top/>
     <About/>
-    {/* <Menu> */}
+    <Menu/>
     {/* <Chefs> */}
     {/* <Reservation> */}
     {/* <Offer> */}

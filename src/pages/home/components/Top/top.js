@@ -33,7 +33,7 @@ export const Top = () => {
       spaceBetween={0}
       slidesPerView={1}
       loop={true}
-      autoplay={{ delay: 1000 }}
+      // autoplay={{ delay: 1000 }}
       navigation
       pagination={{ clickable: true }}
       // scrollbar={{ draggable: true }}

@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import breakpoint from '../../../../breakpoints'
+import {breakpoint} from '../../../../breakpoints'
 
 
 export const NavContainer = styled.div`

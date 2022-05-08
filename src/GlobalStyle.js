@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components'
-import breakpoint from './breakpoints'
+import { breakpoint } from './breakpoints'
 // Media Query Breakpoint Notes
 // 20em is 320px
 // 30em is 480px
@@ -15,9 +15,12 @@ export const GlobalStyle = createGlobalStyle`
   :root {
     --primary-color: hsla(9.8,100%,64.1%,100%);
     --secondary-color: hsla(0,0%,16.5%,100%);
+    --tertiary-color: hsla(0,100%,99%,100%);
     --side-padding: 6vw;
     --h1-size: 1.4rem;
+    --h2-size: 1.3rem;
     --h4-size: 0.5rem;
+    --h6-size: 0.45rem;
     --p-size: 0.4rem;
     --li-size: 0.5rem;
     @media screen and (${breakpoint.device.bP3}){

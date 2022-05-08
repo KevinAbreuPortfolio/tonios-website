@@ -11,10 +11,10 @@ const Home = () => {
     <Top/>
     <About/>
     <Menu/>
-    {/* <Chefs> */}
-    {/* <Reservation> */}
-    {/* <Offer> */}
-    {/* <Footer> */}
+    {/* <Chefs/> */}
+    {/* <Reservation/> */}
+    {/* <Offer/> */}
+    {/* <Footer/> */}
     
     </>
   )
